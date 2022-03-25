@@ -2,17 +2,47 @@
     padding: 0;
     margin: 0;
 }
+
+.desktop{
+    background-image: url('wallpaper.jpg');
+    background-color: aqua;
+    height: 700px;
+}
+
+
 .barra-de-tarefas{
-    background-color: black;
+    background-color: #213540;
     height: 40px;
     width: 100%;
 }
 .menu-iniciar{
-    background-color: rgb(0, 0, 0);
-    height: 40px ;
+    background-color: #213540;
+    height: 38px ;
     width: 50px;
     cursor: pointer;
 }
 .menu-iniciar:hover{
-    background-color: rgb(102, 102, 102);
+    background-color: #2b424e;
+}
+.menu-iniciar img{
+    width: 16px;
+}
+
+.iniciarbranco{
+    position: fixed;
+    left: 1%;
+    top: 94%;
+}
+.iniciarazul{
+    position: fixed;
+    left: 1%;
+    top: 94%;
+    opacity: 0%;
+}
+
+.iniciarbranco:hover{
+   display: none;
+}
+.iniciarazul:hover{
+    opacity: 100%;
 }
